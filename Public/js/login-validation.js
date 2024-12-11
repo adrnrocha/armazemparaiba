@@ -6,7 +6,7 @@ function validarLogin(event) {
     var senha = document.getElementById("password").value;
 
     // Fazendo a requisição para a função serverless da Vercel
-    fetch('/api/login', {
+    fetch('/api/login.js', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
