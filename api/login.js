@@ -4,7 +4,7 @@ export default function handler(req, res) {
         const { email, senha } = req.body;
         
         // Usuário e senha de exemplo
-        const usuarioValido = "admin";
+        const usuarioValido = "admin@gmail.com";
         const senhaValida = "12345";
         
         if (email === usuarioValido && senha === senhaValida) {
